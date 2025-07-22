@@ -44,6 +44,6 @@ spec:
         - --registry=noop
         - --policy=upsert-only
         - --provider=pihole
-        - --pihole-api-version="6"
+        - --pihole-api-version=6
       securityContext:
         fsGroup: 65534 # For ExternalDNS to be able to read Kubernetes token files
