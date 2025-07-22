@@ -40,9 +40,7 @@ spec:
         - --source=service
         - --source=ingress
         - --source=gateway-httproute
-        - --source=gateway-tlsroute
-        - --source=gateway-tcproute
-        - --source=gateway-udproute
+        - --source=gateway-grpcroute
         - --registry=noop
         - --policy=upsert-only
         - --provider=pihole
